@@ -22,13 +22,6 @@ export const Button: React.FC<Props> = ({ children, color }) => {
   );
 };
 
-export const Header: React.FC<{}> = () => {
-  const style = {
-    fontFamily: "monospace",
-  };
-  return <h1 style={style}>Hello, world!</h1>;
-};
-
 setupPreviews(Button, () => ({
   default: {
     children: "Hello, World!",

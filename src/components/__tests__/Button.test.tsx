@@ -3,7 +3,7 @@ import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 
-import { Button, Header } from "../Button";
+import { Button } from "../Button";
 
 describe("Button", () => {
   it("should succeed", () => {
@@ -33,11 +33,5 @@ describe("Button", () => {
     await user.click(button);
 
     expect(logSpy).toHaveBeenCalled();
-  });
-});
-
-describe("Header", () => {
-  it.skip("should fail", () => {
-    expect(true).toBe(false);
   });
 });
