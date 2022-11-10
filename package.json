@@ -1,0 +1,36 @@
+{
+  "name": "vite-ecosystem",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "previewjs": "previewjs",
+    "test": "vitest run",
+    "test:ui": "vitest --ui",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@testing-library/dom": "^8.19.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@previewjs/cli": "^1.16.2",
+    "@previewjs/plugin-react": "^6.2.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "@vitest/coverage-c8": "^0.25.1",
+    "@vitest/ui": "^0.25.1",
+    "happy-dom": "^7.6.7",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vitest": "^0.25.1"
+  }
+}
